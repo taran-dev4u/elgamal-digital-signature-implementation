@@ -8,32 +8,38 @@ This repository presents the ElGamal digital signature scheme as an implementati
 
 The project is suitable as a security fundamentals entry because it connects public-key concepts, modular arithmetic, signing, and verification.
 
-## Problem
+## Project Objective
 
 Digital signatures need a private signing process and a public verification process. The implementation must handle modular arithmetic correctly for the signature to verify.
 
-## Scope
+## Completed Scope
 
 - ElGamal signing protocol
 - Verification equation
 - Modular inverse helper logic
 - Correctness explanation and example output
 
-## Approach
+## Workflow
 
 - Explained public and private values used in the scheme
 - Implemented signing with a valid random value
 - Implemented verification with modular exponentiation
 - Documented why the verification equation works
 
-## Existing Work
+## Deliverables
 
 - Cryptography presentation on the ElGamal digital signature scheme
 - Slides include implementation details, output, signing, verification, and correctness explanation
 
+## Repository Contents
+
+- `README.md` - project overview, workflow, deliverables, and skills summary
+- `project-files/ug/Crypto_project.pptx` - project artifact
+- `project-files/README.md` - manifest of uploaded project materials
+
 ## Contribution
 
-Prepared the implementation-focused project structure and documentation from the cryptography presentation.
+Documented the implementation-focused project structure from the cryptography presentation.
 
 ## Skills
 
@@ -42,14 +48,6 @@ Prepared the implementation-focused project structure and documentation from the
 - Modular arithmetic
 - Digital signatures
 - Security fundamentals
-
-## Next Update
-
-- Add source code from the original implementation
-- Add command-line examples
-- Add tests for valid and invalid signatures
-
-The implementation files are stored separately and will be added after the source folders are reviewed and organized.
 
 ## Topics
 
